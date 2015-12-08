@@ -5,7 +5,10 @@ import cucumber.api.junit.Cucumber;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(plugin = {"pretty", "html:target/cucumber"})
+@CucumberOptions(
+		features = {"src/test/resources/features/sum/sum.feature",
+				    "src/test/resources/features/sum/sum_of_multiple_numbers.feature"}
+		)
 public class SumTest {
-	
+
 }
