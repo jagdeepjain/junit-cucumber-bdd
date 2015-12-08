@@ -7,4 +7,4 @@ env:
    - secure: "xViOuGTUL5vjkjPeYM2dpfYGQkiK7SQXwOwrSNdZiA1gs23xBDdewT6XphcxaeVTUTFp2YNRU0LBoyIk6VgTJru/hx8epRkf9aAWZf3Gii2o8vZrgfw3PJa87Qpr/nPCq+MrOrDFjRu19BVjLa96JlXewZkfX+//lkDuV7dhU+Q="
 
 install:
-  mvn clean install -Pui-test
+  mvn clean test
